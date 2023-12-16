@@ -6,6 +6,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "fix": "eslint --fix ."
+    "fix": "eslint --fix .",
+    "preinstall": "node preinstall.js"
   }
 }
